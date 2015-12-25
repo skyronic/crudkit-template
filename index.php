@@ -1,6 +1,6 @@
 <?php
-// Require CrudKit application
-require "../vendor/autoload.php";
+
+require "vendor/autoload.php";
 use CrudKit\CrudKitApp;
 use CrudKit\Pages\SQLiteTablePage;
 use CrudKit\Pages\BasicLoginPage;
