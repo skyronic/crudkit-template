@@ -2,6 +2,7 @@
     "name": "skyronic/crudkit-template",
     "description": "A template to be used with 'composer create-project' to create a new crudkit project.",
     "minimum-stability": "beta",
+    "version": "0.1.4",
     "authors": [
         {
             "name": "Anirudh Sanjeev",
