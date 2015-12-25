@@ -1,0 +1,18 @@
+{
+    "name": "skyronic/crudkit-template",
+    "description": "A template to be used with 'composer create-project' to create a new crudkit project.",
+    "minimum-stability": "beta",
+    "authors": [
+        {
+            "name": "Anirudh Sanjeev",
+            "email": "skyronic@gmail.com"
+        }
+    ],
+    "require": {
+    	"skyronic/crudkit": "*"
+    },
+    "scripts": {
+    	"post-install-cmd": "CrudKit\\Util\\Installer::copyFiles",
+    	"post-update-cmd": "CrudKit\\Util\\Installer::copyFiles"
+    }
+}
